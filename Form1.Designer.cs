@@ -28,27 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbUserName = new System.Windows.Forms.TextBox();
+            this.tbPass = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCheck = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tbUserName
             // 
-            this.textBox1.Location = new System.Drawing.Point(223, 81);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 22);
-            this.textBox1.TabIndex = 0;
+            this.tbUserName.Location = new System.Drawing.Point(223, 81);
+            this.tbUserName.Name = "tbUserName";
+            this.tbUserName.Size = new System.Drawing.Size(178, 22);
+            this.tbUserName.TabIndex = 0;
+            this.tbUserName.TextChanged += new System.EventHandler(this.tbUserName_TextChanged);
             // 
-            // textBox2
+            // tbPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(223, 138);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(178, 22);
-            this.textBox2.TabIndex = 1;
+            this.tbPass.Location = new System.Drawing.Point(223, 138);
+            this.tbPass.Name = "tbPass";
+            this.tbPass.Size = new System.Drawing.Size(178, 22);
+            this.tbPass.TabIndex = 1;
+            this.tbPass.TextChanged += new System.EventHandler(this.tbPass_TextChanged);
             // 
             // label1
             // 
@@ -68,37 +70,41 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Пароль:";
             // 
-            // button1
+            // btnCheck
             // 
-            this.button1.Location = new System.Drawing.Point(85, 205);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 29);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Проверить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCheck.Enabled = false;
+            this.btnCheck.Location = new System.Drawing.Point(85, 205);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(147, 29);
+            this.btnCheck.TabIndex = 4;
+            this.btnCheck.Text = "Проверить";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
-            // button2
+            // btnAdd
             // 
-            this.button2.Location = new System.Drawing.Point(254, 205);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 29);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Добавить";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAdd.Enabled = false;
+            this.btnAdd.Location = new System.Drawing.Point(254, 205);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(147, 29);
+            this.btnAdd.TabIndex = 5;
+            this.btnAdd.Text = "Добавить";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 321);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(578, 402);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbPass);
+            this.Controls.Add(this.tbUserName);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Test";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -106,12 +112,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbUserName;
+        private System.Windows.Forms.TextBox tbPass;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCheck;
+        private System.Windows.Forms.Button btnAdd;
     }
 }
 

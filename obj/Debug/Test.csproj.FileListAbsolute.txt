@@ -1,0 +1,14 @@
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.csproj.SuggestedBindingRedirects.cache
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.Form1.resources
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.csproj.GenerateResource.cache
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\San\source\repos\Tests\Test\bin\Debug\Test.exe.config
+C:\Users\San\source\repos\Tests\Test\bin\Debug\Test.exe
+C:\Users\San\source\repos\Tests\Test\bin\Debug\Test.pdb
+C:\Users\San\source\repos\Tests\Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\San\source\repos\Tests\Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.exe
+C:\Users\San\source\repos\Tests\Test\obj\Debug\Test.pdb
